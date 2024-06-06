@@ -1,0 +1,18 @@
+.model-viewer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.model-view-css-fix {
+    width: auto;
+    height: 60dvh;
+    margin-bottom: 100px;
+  }
+
+.underline{
+    text-decoration: underline; 
+    text-underline-offset: 10px; 
+    text-decoration-style: double; 
+    text-decoration-color: #2a6bd1;
+  }

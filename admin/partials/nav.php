@@ -5,7 +5,7 @@
 
             <div class="">
                 <div class="main-menu-header">
-                    <img class="img-radius" src="../assets/images/user/avatar-2.jpg" alt="User-Profile-Image">
+                    <img class="img-radius" src="../assets/images/avatar-2.png" alt="User-Profile-Image">
                     <div class="user-details">
                         <span><?php echo $_SESSION['alogin'] ?></span>
                         <div id="more-details">Admin<i class="fa fa-chevron-down m-l-5"></i></div>

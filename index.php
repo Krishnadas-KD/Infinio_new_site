@@ -64,8 +64,8 @@
                         <a href="#team" class="nav-item nav-link">Team</a>
                         <a href="#contact" class="nav-item nav-link">Contact</a>
                     </div>
-                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
-                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                    <button type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butabuttonton>
                 </div>
             </nav>
         </div>
@@ -87,24 +87,23 @@
                     <div class="model-viewer-container">
                     <model-viewer 
                     src="obj/facebook.glb" 
-                    seamless-poster shadow-intensity="1" disable-zoom camera-controls  autoplay auto-rotate>
+                    seamless-poster shadow-intensity="1" disable-zoom camera-controls  autoplay auto-rotate interaction-prompt="none">
                    </model-viewer>
                    <model-viewer 
                    src="obj/linkedin.glb" 
-                   seamless-poster shadow-intensity="1" disable-zoom camera-controls  autoplay auto-rotate>
+                   seamless-poster shadow-intensity="1" disable-zoom camera-controls  autoplay auto-rotate interaction-prompt="none">
                   </model-viewer>
                   <model-viewer 
                   src="obj/instagram.glb" 
-                  seamless-poster shadow-intensity="1" disable-zoom camera-controls  autoplay auto-rotate>
+                  seamless-poster shadow-intensity="1" disable-zoom camera-controls  autoplay auto-rotate interaction-prompt="none">
                  </model-viewer>
                 </div>  
 
                 </div>
                 <div class="col-lg-6 align-self-end text-center text-lg-end">
 
-                        <model-viewer class="model-view-css-fix"
-                         src="obj/infiniologo3d.glb" 
-                         seamless-poster shadow-intensity="1" disable-zoom camera-controls  auto-rotate>
+                        <model-viewer 
+                        class="model-view-css-fix"src="obj/infiniologo3d.glb" seamless-poster shadow-intensity="1" disable-zoom camera-controls  auto-rotate interaction-prompt="none">
                         </model-viewer>
       
                    
@@ -586,75 +585,69 @@
 
 
     <!-- Contact Start -->
-    <div class="container-fluid bg-primary newsletter py-5" id="contact">
-    <div class="container  py-5">
+    <div class="container-fluid bg-primary  py-5" id="contact">
+        <div class="container  py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
                     <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Contact Us</div>
-                    <h1 class="text-white mb-4">We'd love to hear from you! Whether you have a question about our services or need a consultation, our team is here to help.
-                    </h1>
+                    <h1 class="text-white mb-4">We'd love to hear from you! Whether you have a question about our services or need a consultation, our team is here to help.</h1>
                 </div>
-                <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
-                    
-                    <div class="col-lg-12">
-                <div class="row g-4">
+                <div class="col-md-7 py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="row g-4">
 
-                    <div class="col-4 wow fadeIn" data-wow-delay="0.7s">
-                        <div class="team-item  text-center rounded p-4 pt-0" style="box-shadow:  5px 5px 5px ; background-color: rgba(255, 255, 255, 0.884);">
-                            <h5 class="underline mb-0">Thrissur</h5>
-                            <br/>
-                            <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>2nd Floor Vimala
-                                Building,</br>Thrissur. Kerala, India.</p>
-                            <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91 - 4872 426638</p>
-                            <p class="mb-2"><i class="fa fa-mobile-alt text-primary me-3"></i>+91 - 94968 39168</p>
-                            <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@infinio.co.in</p>
-                            
+                        <div class="col-12 col-md-4 wow fadeIn" data-wow-delay="0.7s">
+                            <div class="team-item  text-center rounded p-4 pt-0" style="box-shadow:  5px 5px 5px ; background-color: rgba(255, 255, 255, 0.884);">
+                                <h5 class="underline mb-0">Thrissur</h5>
+                                <br/>
+                                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>2nd Floor Vimala
+                                    Building,</br>Thrissur. Kerala, India.</p>
+                                <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91 - 4872 426638</p>
+                                <p class="mb-2"><i class="fa fa-mobile-alt text-primary me-3"></i>+91 - 94968 39168</p>
+                                <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@infinio.co.in</p>
+                                
+                            </div>
                         </div>
-                    </div>
 
-
-                    
-                    <div class="col-4 wow fadeIn" data-wow-delay="0.7s">
-                        <div class="team-item  text-center rounded p-4 pt-0"  style="box-shadow:  5px 5px 5px ; background-color: rgba(255, 255, 255, 0.884);">
-                            <h5 class="underline mb-0" >Kochi</h5>
-                            <br/>
-                            <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Marampally, Aluva,
-                                Kerala.
-                            </p>
-                            <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91 - 97454 50618</p>
-                            <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@infinio.co.in</p>
-                            
+                        <div class="col-12 col-md-4 wow fadeIn" data-wow-delay="0.7s">
+                            <div class="team-item  text-center rounded p-4 pt-0"  style="box-shadow:  5px 5px 5px ; background-color: rgba(255, 255, 255, 0.884);">
+                                <h5 class="underline mb-0" >Kochi</h5>
+                                <br/>
+                                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Marampally, Aluva,
+                                    Kerala.
+                                </p>
+                                <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91 - 97454 50618</p>
+                                <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@infinio.co.in</p>
+                                
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-4 wow fadeIn" data-wow-delay="0.7s">
-                        <div class="team-item  text-center rounded p-4 pt-0"  style="box-shadow:  5px 5px 5px ; background-color: rgba(255, 255, 255, 0.884);">
-                            <h5 class="underline mb-0">DUBAI</h5>
-                            <br/>
-                            <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Jebel Ali, Dubai.
-                            </p>
-                            <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+971-0556259175</p>
-                            <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@infinio.co.in</p>
-                            
+                        <div class="col-12 col-md-4 wow fadeIn" data-wow-delay="0.7s">
+                            <div class="team-item  text-center rounded p-4 pt-0"  style="box-shadow:  5px 5px 5px ; background-color: rgba(255, 255, 255, 0.884);">
+                                <h5 class="underline mb-0">DUBAI</h5>
+                                <br/>
+                                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Jebel Ali, Dubai.
+                                </p>
+                                <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+971-0556259175</p>
+                                <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@infinio.co.in</p>
+                                
+                            </div>
                         </div>
+
                     </div>
-                </div>
                 </div>
             </div>
         </div>
-            </div>
-            <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.3s"
-            style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-            <iframe class="position-relative rounded w-100 h-100"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.729209875355!2d76.21824!3d10.5219814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ef2701a50ef3%3A0xbe22b5bb9c036060!2sInfinio%20Technical%20Solutions!5e0!3m2!1sen!2sin!4v1668663346162!5m2!1sen!2sin"
-                frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
+
+        <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.3s"
+        style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+        <iframe class="position-relative rounded w-100 h-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.729209875355!2d76.21824!3d10.5219814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7ef2701a50ef3%3A0xbe22b5bb9c036060!2sInfinio%20Technical%20Solutions!5e0!3m2!1sen!2sin!4v1668663346162!5m2!1sen!2sin"
+            frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
         </div>
         
-
-          
-        </div>
     </div>
+
     <!-- Newsletter End -->
 
 

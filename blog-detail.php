@@ -40,10 +40,11 @@ if ($query->rowCount() > 0) {
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/custome.css" rel="stylesheet">
 </head>
 
 <body>
-<?php include('./partials/header.php') ?>
+
 
 
 
@@ -57,7 +58,7 @@ if ($query->rowCount() > 0) {
                         <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
                             <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                             <li class="breadcrumb-item"><a class="text-white" href="#">Blog</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page"><?php echo substr($htmlentities($userArr[0]->title), 0, 10);  ?></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page"><?php echo substr(strval(htmlentities($userArr[0]->title)), 0, 10); ?>...</li>
                         </ol>
                     </nav>
                 </div>
@@ -120,7 +121,7 @@ if ($query->rowCount() > 0) {
 
    
 
-    <?php include('./partials/footer.php') ?>
+
 
 </body>
 

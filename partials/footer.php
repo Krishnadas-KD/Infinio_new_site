@@ -2,19 +2,7 @@
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white-50 footer pt-5">
         <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <a href="index.html" class="d-inline-block mb-3">
-                        <h1 class="text-white">Infinio Technologies</h1>
-                    </a>
-                    <p class="mb-0">At Infinio Technology Solutions, we envision a world where technology seamlessly integrates
-                         with everyday business operations, driving unparalleled efficiency, innovation, and growth. 
-                         We strive to be the leading provider of cutting-edge technological solutions that empower businesses 
-                         to achieve their full potential.</p>
-                </div>
-
-
-
+            <div class="row g-4">
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
                     <h5 class="text-white mb-4">Infinio Technology Solutions</h5>
                     <p>Empowering Businesses with Innovative Technology Solutions</p>
@@ -30,6 +18,19 @@
                     </div>
                 </div>
                
+
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>2nd Floor Vimala Building, 
+                                                    <br>&#160;&#160;&#160;&#160;&#160;Thrissur, Kerala, India.</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+91 - 4872 426638
+                            <br/>&#160;&#160;&#160;&#160;&#160; +91 - 94968 39168
+                            <br/>&#160;&#160;&#160;&#160;&#160; +91 - 9745450618
+                    </p>
+                    <p><i class="fa fa-envelope me-3"></i>info@infinio.co.in</p>
+                    
+                </div>
+
                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
                     <h5 class="text-white mb-4">Popular Link</h5>
                     <a class="btn btn-link" href="#about_as">About Us</a>
@@ -56,7 +57,6 @@
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
 
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                         Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
@@ -76,7 +76,7 @@
      <!-- Back to Top -->
      <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"> <model-viewer 
         src="obj/arrow.glb" 
-        seamless-poster disable-zoom  autoplay auto-rotate>
+        seamless-poster disable-zoom  autoplay >
        </model-viewer></a>
 
 

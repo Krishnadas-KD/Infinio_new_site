@@ -52,29 +52,11 @@
                     <h1 class="display-4 text-white mb-4 animated slideInRight">Welcome to Infinio Technology Solutions</h1>
                     <p class="text-white mb-4 animated slideInRight">Empowering Businesses with Innovative Technology Solutions
                     </p>
-                    <div class="model-viewer-container">
-                    <model-viewer 
-                    src="obj/facebook.glb" 
-                    seamless-poster shadow-intensity="1" disable-zoom camera-controls  autoplay auto-rotate interaction-prompt="none">
-                   </model-viewer>
-                   <model-viewer 
-                   src="obj/linkedin.glb" 
-                   seamless-poster shadow-intensity="1" disable-zoom camera-controls  autoplay auto-rotate interaction-prompt="none">
-                  </model-viewer>
-                  <model-viewer 
-                  src="obj/instagram.glb" 
-                  seamless-poster shadow-intensity="1" disable-zoom camera-controls  autoplay auto-rotate interaction-prompt="none">
-                 </model-viewer>
-                </div>  
-
                 </div>
                 <div class="col-lg-6 align-self-end text-center text-lg-end">
-
                         <model-viewer 
                         class="model-view-css-fix"src="obj/infiniologo3d.glb" seamless-poster shadow-intensity="1" disable-zoom camera-controls  auto-rotate interaction-prompt="none">
                         </model-viewer>
-      
-                   
                 </div>
             </div>
         </div>
@@ -109,20 +91,18 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img">
-                        <img class="img-fluid" src="img/about-img.jpg">
+                        <img class="img-fluid" src="img/about-img.jpeg">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                     <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">About Us</div>
-                    <h1 class="mb-4">We Make Your Business Smarter with our Solutions</h1>
-                    <p class="mb-4">Infinio Technology Solutions was founded with a simple goal: to 
-                        help businesses harness the power of technology to achieve their strategic objectives.
-                         With years of experience in the IT industry, our team of experts specializes in a wide range 
-                         of services, including software development, web development, IT consulting, and digital
-                          transformation.
+                    <h1 class="mb-4">About INFINIO Technology Solutions</h1>
+                    <p class="mb-4">At INFINIO Technology Solutions, we are dedicated to empowering businesses through innovative 
+                        technology solutions. With a steadfast commitment to excellence, we deliver cutting-edge software development,
+                         IT consulting, and cloud solutions tailored to meet the unique needs of our clients. Our mission is to drive 
+                         growth and efficiency by providing technology that transforms business operations and accelerates success.
                     </p>
-                    <p class="mb-4">Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no
-                        labore lorem sit. Sanctus clita duo justo et tempor.</p>
+                    <p class="mb-4"></p>
 
                 </div>
             </div>
@@ -237,8 +217,8 @@
                 <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
                     <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Our Mission</div>
                     <h1 class="text-white mb-4">Deliver customised technology solutions for our clients</h1>
-                    <p class="text-light mb-4">Our mission is to deliver innovative and customised technology 
-                        solutions that meet the unique needs of our clients. We are committed to:
+                    <p class="text-light mb-4">To empower businesses with state-of-the-art technology solutions that 
+                        foster innovation, enhance productivity, and drive sustainable growth.
                     </p>
                     <div class="d-flex align-items-center text-white mb-3">
                         <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
@@ -289,7 +269,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 align-self-end text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
-                    <img class="img-fluid" src="img/feature.png" alt="">
+                    <img class="img-fluid" src="img/mission.png" alt="">
                 </div>
             </div>
         </div>
@@ -310,7 +290,8 @@
                         <img class="img-fluid" src="img/our-value-1.jpg" alt="">
                         <a class="case-overlay text-decoration-none" href="">
                             <small>Innovation</small>
-                            <h5 class="lh-base text-white mb-3">We embrace cutting-edge technologies and methodologies to deliver the best solutions
+                            <h5 class="lh-base text-white mb-3">
+                            We continuously push the boundaries of technology to deliver solutions that are not only current but also future-ready.
                             </h5>
                             
                         </a>
@@ -321,7 +302,8 @@
                         <img class="img-fluid" src="img/our-value-2.jpg" alt="">
                         <a class="case-overlay text-decoration-none" href="">
                             <small>Excellence</small>
-                            <h5 class="lh-base text-white mb-3">We strive for the highest standards in everything we do.
+                            <h5 class="lh-base text-white mb-3"> We strive for excellence in everything we do, from the solutions we deliver to the service we provide.
+
                             </h5>
 
                         </a>
@@ -332,7 +314,7 @@
                         <img class="img-fluid" src="img/our-value-3.jpg" alt="">
                         <a class="case-overlay text-decoration-none" href="">
                             <small>Integrity</small>
-                            <h5 class="lh-base text-white mb-3">We conduct our business with honesty and transparency.
+                            <h5 class="lh-base text-white mb-3">We uphold the highest standards of integrity in all our actions, ensuring transparency and trust in our relationships.
                             </h5>
  
                         </a>
@@ -343,7 +325,7 @@
                         <img class="img-fluid" src="img/our-value-4.jpg" alt="">
                         <a class="case-overlay text-decoration-none" href="">
                             <small>Customer Focus</small>
-                            <h5 class="lh-base text-white mb-3">Our clients' success is our success.
+                            <h5 class="lh-base text-white mb-3">Our clients are at the heart of everything we do. We work collaboratively to understand their needs and exceed their expectations.
                             </h5>
                            
                         </a>
@@ -365,13 +347,12 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
                     <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Vision</div>
-                    <h1 class="mb-4">Rouse The World With Our Inventive Technology</h1>
+                    <h1 class="mb-4">To be a global leader in technology solutions and commitment to client success.</h1>
                     <p class="mb-4">At Infinio Technology Solutions, we envision a world where technology seamlessly 
                         integrates with everyday business operations, driving unparalleled efficiency, innovation, 
                         and growth. We strive to be the leading provider of cutting-edge technological solutions that
                          empower businesses to achieve their full potential.
                     </p>
-                    <a class="btn btn-primary rounded-pill px-4" href="">Read More</a>
                 </div>
                 <div class="col-lg-7">
                     <div class="row g-4">
@@ -523,8 +504,8 @@
                                 <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.png"
                                     style="width: 60px; height: 60px;">
                                 <div class="ps-3">
-                                    <h5 class="mb-1">Mudra Publications</h5>
-                                    <span>Thrissur</span>
+                                    <h5 class="mb-1">Finder Sports</h5>
+                                    <span>Dubai</span>
                                 </div>
                             </div>
                         </div>
@@ -536,8 +517,8 @@
                                 <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-5.png"
                                     style="width: 60px; height: 60px;">
                                 <div class="ps-3">
-                                    <h5 class="mb-1">LEADS' Venture La</h5>
-                                    <span>Malappuram</span>
+                                <h5 class="mb-1">Mudra Publications</h5>
+                                <span>Thrissur</span>
                                 </div>
                             </div>
                         </div>
@@ -567,9 +548,7 @@
                             <div class="team-item  text-center rounded p-4 pt-0" style="box-shadow:  5px 5px 5px ; background-color: rgba(255, 255, 255, 0.884);">
                                 <h5 class="underline mb-0">Thrissur</h5>
                                 <br/>
-                                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>2nd Floor Vimala
-                                    Building,</br>Thrissur. Kerala, India.</p>
-                                <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91 - 4872 426638</p>
+                                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Thrissur, Kerala </p>
                                 <p class="mb-2"><i class="fa fa-mobile-alt text-primary me-3"></i>+91 - 94968 39168</p>
                                 <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@infinio.co.in</p>
                                 
@@ -580,7 +559,7 @@
                             <div class="team-item  text-center rounded p-4 pt-0"  style="box-shadow:  5px 5px 5px ; background-color: rgba(255, 255, 255, 0.884);">
                                 <h5 class="underline mb-0" >Kochi</h5>
                                 <br/>
-                                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Marampally, Aluva,
+                                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i> Aluva,
                                     Kerala.
                                 </p>
                                 <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91 - 97454 50618</p>

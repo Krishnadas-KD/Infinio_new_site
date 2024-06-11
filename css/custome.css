@@ -6,7 +6,7 @@
 
 .model-view-css-fix {
     width: auto;
-    height: 60dvh;
+    height: 50dvh;
     margin-bottom: 100px;
   }
 
@@ -17,3 +17,7 @@
     text-decoration-color: #2a6bd1;
   }
 
+  .logo-img{
+    
+    width: 20dvh;
+  }

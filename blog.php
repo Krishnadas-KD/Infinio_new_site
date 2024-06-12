@@ -90,8 +90,8 @@ include('./admin/includes/config.php');
     <div class="container-fluid bg-light py-5">
         <div class="container py-5">
             <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
-                <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Case Study</div>
-                <h1 class="mb-4">Explore Our Recent AI Case Studies</h1>
+
+                <h1 class="mb-4">Blog</h1>
             </div>
             <div class="row g-4">
             <?php

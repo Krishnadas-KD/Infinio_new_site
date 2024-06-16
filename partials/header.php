@@ -23,11 +23,11 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="index.php" class="nav-item nav-link">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#services" class="nav-item nav-link">Services</a>
-                        <a href="#Vvsion" class="nav-item nav-link">Vision</a>
+                        <a href="index.php#about_as" class="nav-item nav-link">About</a>
+                        <a href="index.php#services" class="nav-item nav-link">Services</a>
+                        <a href="index.php#vision" class="nav-item nav-link">Vision</a>
                         <a href="blog.php" class="nav-item nav-link">Blog</a>
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                        <a href="index.php#contact" class="nav-item nav-link">Contact</a>
                     </div>
                     
                 </div>
